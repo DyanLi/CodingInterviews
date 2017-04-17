@@ -11,9 +11,11 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
+
 class Solution:
     # 返回构造的TreeNode根节点
     def reConstructBinaryTree(self, pre, tin):
+        # 注意这里不能返回False
         if not pre and not tin:
             return None
         root = TreeNode(pre[0])
@@ -30,5 +32,3 @@ tin = [4,7,2,1,5,3,8,6]
 test = Solution()
 newTree = test.reConstructBinaryTree(pre, tin)
 
-left = newTree.left
-right = newTree.right
