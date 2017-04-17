@@ -1,5 +1,6 @@
 # Python实现《剑指offer》
 部分代码增加了一些测试用例或者额外的功能。
+
 代码全部通过 https://www.nowcoder.com/ta/coding-interviews?page=1 的测试。
 
 ### 1. 介绍自己的项目经历时遵循STAR:situation、task、action、result。
